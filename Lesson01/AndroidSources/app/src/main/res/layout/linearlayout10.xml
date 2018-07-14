@@ -5,8 +5,8 @@
     android:layout_margin="8dp"
     android:background="@android:color/holo_blue_dark"
     android:orientation="vertical"
-    android:padding="2dp"
-    android:weightSum="1">
+    android:padding="5dp"
+   >
 
     <Button
         android:id="@+id/button14"
@@ -23,6 +23,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:gravity="start"
+        android:layout_marginBottom="5dp"
         android:text="Button02" />
 
     <Button
@@ -30,7 +31,8 @@
         android:layout_width="170dp"
         android:layout_height="wrap_content"
         android:layout_gravity="start"
-        android:gravity="top"
+        android:gravity="start|center"
+        android:layout_marginBottom="5dp"
         android:text="Button03" />
 
     <Button

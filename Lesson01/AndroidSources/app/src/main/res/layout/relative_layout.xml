@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:padding="2dp">
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Hữu"
+    android:textSize="25sp"
+    android:layout_alignParentBottom="true"
+    android:id="@+id/btnHuu"
+    />
+
+   <Button
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Phong"
+       android:textSize="25sp"
+       android:layout_toRightOf="@id/btnHuu"
+       android:layout_alignBaseline="@id/btnHuu"
+       android:layout_marginLeft="5dp"
+       />
+</RelativeLayout>

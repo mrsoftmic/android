@@ -19,5 +19,6 @@
        android:layout_toRightOf="@id/btnHuu"
        android:layout_alignBaseline="@id/btnHuu"
        android:layout_marginLeft="5dp"
+
        />
 </RelativeLayout>

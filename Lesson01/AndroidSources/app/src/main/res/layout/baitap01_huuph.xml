@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="120">
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="30"
+    android:background="@color/colorAccent"
+    android:src="@drawable/avatar"
+    android:adjustViewBounds="true"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="13"
+        android:maxLines="2"
+        android:padding="10dp"
+        android:text="Toyota Corola Alltis 1.8 2016, đủ màu giá tốt và ưu đãi mua 1 tặng 1. Liên hệ đặt xe ngay"
+        android:textSize="11sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="77"
+        android:weightSum="8">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+           android:layout_weight="1"
+            android:weightSum="2">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="3 tỉ 579 triệu"
+                android:textColor="@color/colorPrimaryDark"
+                android:gravity="center|start"
+                android:paddingLeft="10dp"
+                android:paddingStart="10dp" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Chi phí lăn bánh"
+                android:layout_weight="1"
+                android:gravity="center|end"
+                android:paddingRight="25dp"
+                android:textColor="@android:color/holo_blue_light"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="365dp"
+            android:layout_height="1dp"
+            android:background="@android:color/black"
+            android:layout_gravity="center"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:weightSum="2">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Mã tin"
+                android:gravity="center|start"
+                android:paddingLeft="10dp"
+                android:paddingStart="10dp" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="260412"
+                android:layout_weight="1"
+                android:textColor="@android:color/holo_blue_light"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="365dp"
+            android:layout_height="1dp"
+            android:background="@android:color/black"
+            android:layout_gravity="center"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:weightSum="2">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Địa điểm"
+                android:gravity="center|start"
+                android:paddingLeft="10dp"
+                android:paddingStart="10dp" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Hà Nội"
+                android:layout_weight="1"
+                />
+        </LinearLayout>
+        <TextView
+            android:layout_width="365dp"
+            android:layout_height="1dp"
+            android:background="@android:color/black"
+            android:layout_gravity="center"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:weightSum="2">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Tình trạng xe"
+                android:gravity="center|start"
+                android:paddingLeft="10dp"
+                android:paddingStart="10dp" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Mới"
+                android:layout_weight="1"
+                android:paddingRight="25dp"
+                />
+        </LinearLayout>
+        <TextView
+            android:layout_width="365dp"
+            android:layout_height="1dp"
+            android:background="@android:color/black"
+            android:layout_gravity="center"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:weightSum="2">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Xuất xứ"
+                android:gravity="center|start"
+                android:paddingLeft="10dp"
+                android:paddingStart="10dp" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Trong nước"
+                android:layout_weight="1"
+              />
+        </LinearLayout>
+        <TextView
+            android:layout_width="365dp"
+            android:layout_height="1dp"
+            android:background="@android:color/black"
+            android:layout_gravity="center"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:weightSum="2">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Kiểu dáng"
+                android:gravity="center|start"
+                android:paddingLeft="10dp"
+                android:paddingStart="10dp" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Sport"
+                android:layout_weight="1"
+           />
+        </LinearLayout>
+        <TextView
+            android:layout_width="365dp"
+            android:layout_height="1dp"
+            android:background="@android:color/black"
+            android:layout_gravity="center"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:weightSum="2">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Năm sản xuất"
+                android:gravity="center|start"
+                android:paddingLeft="10dp"
+                android:paddingStart="10dp" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="2016"
+                android:layout_weight="1"
+               />
+        </LinearLayout>
+        <TextView
+            android:layout_width="365dp"
+            android:layout_height="1dp"
+            android:background="@android:color/black"
+            android:layout_gravity="center"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:weightSum="2">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Ngày đăng"
+                android:gravity="center|start"
+                android:paddingLeft="10dp"
+                android:paddingStart="10dp" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="26/04/2012"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+
+</LinearLayout>
